@@ -54,7 +54,7 @@ void BankDB::fetchInfoFromDatabase()
     double availBalance, totalBalance;
     accounts.clear();
 
-    /// number to accounts available in database
+    /// number of accounts available in database
     fin >> totalAcc;
     /// reading user account information file
     for (int i = 1; i <= totalAcc; i++) {
