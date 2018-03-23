@@ -15,13 +15,9 @@ public:
 string ATMTime::getTimeNow()
 {
     time_t now = time(0);
-
     char *dt = ctime(&now);
-
     string timeNow = dt;
-
     timeNow[timeNow.size() - 1] = ' ';
-
     return timeNow;
 }
 
